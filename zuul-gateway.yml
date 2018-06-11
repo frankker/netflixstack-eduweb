@@ -1,4 +1,2 @@
-server.port=8080
-#zuul.routes.book2.url=http://localhost:8090
-zuul.routes.schoolService.serviceId=school-service
-ribbon.eureka.enabled=false
+#server:
+#  port: 8080
