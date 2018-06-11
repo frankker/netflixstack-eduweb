@@ -1,0 +1,12 @@
+server:
+  port: 8100
+
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: ${eureka.client.serviceUrl.defaultZone}
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    statusPageUrlPath: /info
+    healthCheckUrlPath: /health
