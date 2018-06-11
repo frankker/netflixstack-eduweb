@@ -1,2 +1,11 @@
-#server:
-#  port: 8080
+server:
+  port: 8080
+
+zuul-proxy-server:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8100 #,localhost:8092,localhost:8093
+    ServerListRefreshInterval: 3000
+    
+#zuul.routes.schoolService.serviceId=school-service
