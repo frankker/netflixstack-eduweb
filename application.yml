@@ -15,9 +15,11 @@ logging:
             
 spring:
   sleuth:
+    enabled: true
     sampler:
       percentage: 1.0
     web:
       skipPattern: (^cleanup.*|.+favicon.*)
   zipkin:
+    enabled: true
     baseUrl: http://localhost:8400
