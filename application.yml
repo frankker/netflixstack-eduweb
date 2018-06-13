@@ -17,5 +17,7 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
+    web:
+      skipPattern: (^cleanup.*|.+favicon.*)
   zipkin:
     baseUrl: http://localhost:8400
