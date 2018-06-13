@@ -1,5 +1,5 @@
 server:
-  port: 9411
+  port: 8400
 zipkin:
   storage:
     type: mem
