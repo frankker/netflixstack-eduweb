@@ -19,6 +19,3 @@ spring:
       percentage: 1.0
   zipkin:
     baseUrl: http://localhost:8400
-  cloud:
-    config:
-      override-system-properties: false
