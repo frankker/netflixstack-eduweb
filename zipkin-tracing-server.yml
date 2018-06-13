@@ -1,3 +1,5 @@
+logging:
+  level.org.springframework.cloud: DEBUG
 server:
   port: 8400
 zipkin:
