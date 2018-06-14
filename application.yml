@@ -14,11 +14,6 @@ logging:
             DispatcherServlet: DEBUG
             
 spring:
-  cloud:
-    config:
-      uri: http://localhost:8888
-      username: frankker
-      password: test123
   sleuth:
     enabled: true
     sampler:
@@ -28,3 +23,9 @@ spring:
   zipkin:
     enabled: true
     baseUrl: http://localhost:8400
+  security:
+    basic:
+      enabled: true
+    user:
+      name: eureka_admin
+      password: eureka123
