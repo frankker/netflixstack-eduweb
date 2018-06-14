@@ -26,8 +26,8 @@ spring:
     enabled: true
     baseUrl: http://52.57.78.44:8400
   security:
-    basic:
-      enabled: true
+    #basic:
+    #  enabled: true
     user:
       name: eureka_admin
       password: eureka123
