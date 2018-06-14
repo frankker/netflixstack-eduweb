@@ -26,8 +26,6 @@ spring:
     enabled: true
     baseUrl: http://localhost:8400
   security:
-    basic:
-      enabled: true
     user:
       name: eureka_admin
       password: eureka123
