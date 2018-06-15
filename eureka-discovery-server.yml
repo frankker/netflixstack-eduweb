@@ -13,4 +13,9 @@ eureka:
 security:
     user:
       name: eureka_admin 
-      password: eureka123
+      password: eureka123      
+      
+management:
+  endpoints:
+    web:
+      expose: refresh
