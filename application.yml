@@ -24,8 +24,8 @@ spring:
       skipPattern: (^cleanup.*|.+favicon.*)
   zipkin:
     enabled: true
-    #baseUrl: http://52.57.78.44:8400
-    baseUrl: http://35.156.26.200:8400
+    baseUrl: http://localhost:8400
+    #baseUrl: http://35.156.26.200:8400
   security:
     basic:
       enabled: true
