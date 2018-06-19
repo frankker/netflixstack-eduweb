@@ -1,12 +1,12 @@
 eureka:
   instance:
     #hostname: ec2-18-184-143-16.eu-central-1.compute.amazonaws.com
-    hostname: 192.168.48.1
+    hostname: 52.58.219.248
     #hostname: localhost
   client:
     service-url:
       #defaultZone: http://eureka_admin:eureka123@ec2-18-197-6-211.eu-central-1.compute.amazonaws.com:8761/eureka/
-      defaultZone: http://eureka_admin:eureka123@192.168.48.1:8761/eureka/
+      defaultZone: http://eureka_admin:eureka123@52.58.219.248:8761/eureka/
 
 logging:
   level:
