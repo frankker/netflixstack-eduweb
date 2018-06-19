@@ -9,6 +9,7 @@ eureka:
       defaultZone: http://eureka_admin:eureka123@52.58.219.248:8761/eureka/
     lease:
       duration: 5
+      
 
 logging:
   level:
