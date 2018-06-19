@@ -3,12 +3,12 @@ server:
   
 eureka:
   instance:
-    hostname: localhost
+    hostname: 52.58.219.248
   client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://52.58.219.248:8761/eureka/
       
 security:
     user:
